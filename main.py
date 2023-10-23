@@ -30,3 +30,7 @@ for word in words:
 with open("Second.txt", "w") as second_file:
     second_file.write(" ".join(filtered_words))
 
+#2
+word_count = len(words)
+
+print(f"Count of words in file: {word_count}")
